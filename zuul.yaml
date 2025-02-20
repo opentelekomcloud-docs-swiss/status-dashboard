@@ -4,6 +4,9 @@
     default-branch: main
     templates:
       - helpcenter-swiss-base-jobs
+    vars:
+      sphinx_pdf_files:
+        - sd-umn.pdf
     check:
       jobs:
         - noop
